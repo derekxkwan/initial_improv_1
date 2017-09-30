@@ -5,7 +5,7 @@ maxletter = 97
 
 def ltrmapper(ltrnum):
     ltrnum = ltrnum - 97
-    ltroct = int(int(int(ltrnum)/7)/octmap)
+    ltroct = int(int(int(ltrnum + 5)/7)/octmap)
     ltrval = unichr((ltrnum % 7) + 97)
     ltrstr = str(ltrval) + str(ltroct)
     return ltrstr
