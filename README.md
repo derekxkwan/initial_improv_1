@@ -5,6 +5,7 @@ an improvisational piece for any number of melodic improvisers released under cc
 
 
 **initial_improv_1_mapper.py** - python script to help map letters (run by "python initial_improv_1_mapper.py")
+
 names are separated by || and numbers denote octaves (starting with 0). can't handle non-ascii characters yet (including diacritical marked letters).
 
 
